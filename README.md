@@ -1,6 +1,6 @@
 # MyGamesPS4
 
-Cursos de Laravel Parte I e II 
+Cursos de Laravel Parte I e II onde utilizarei para criar um sistema que guarda todos os meus jogos de PlayStation.
 
 # Parte I 
 Entender o padrão MVC com Laravel
