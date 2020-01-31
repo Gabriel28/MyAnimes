@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\GamesformRequest;
+
 use App\Game;
+use App\Http\Requests\GameFormRequest;
 use Illuminate\Http\Request;
 
 class GamesController extends Controller
@@ -22,7 +23,7 @@ class GamesController extends Controller
         return view('games.create');
     }
 
-    public function store(GamesformRequest $request)
+    public function store(GameFormRequest $request)
     {
         $game = Game::create($request->all());
         $request->session()

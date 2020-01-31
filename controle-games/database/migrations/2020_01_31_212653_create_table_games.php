@@ -15,7 +15,7 @@ class CreateTableGames extends Migration
     {
         Schema::create('games', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('nome');
+            $table->string('name');
         });
     }
 
