@@ -12,7 +12,7 @@ Meus jogos
 </div>
 @endif
 
-<a href="{{ route('form_criar_game') }}" class="btn btn-dark mb-2">Adicionar</a>
+<a href="{{ route('form_create_game') }}" class="btn btn-dark mb-2">Adicionar</a>
 
 <ul class="list-group">
     @foreach($games as $game)

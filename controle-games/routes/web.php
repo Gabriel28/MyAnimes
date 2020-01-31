@@ -12,7 +12,7 @@
 */
 Route::get('/games', 'GamesController@index')
     ->name('listar_games');
-Route::get('/games/criar', 'GamesController@create')
-    ->name('form_criar_serie');
-Route::post('/games/criar', 'GamesController@store');
+Route::get('/games/create', 'GamesController@create')
+    ->name('form_create_game');
+Route::post('/games/create', 'GamesController@store');
 Route::delete('/games/{id}', 'GamesController@destroy');

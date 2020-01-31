@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('head')
-    Adicionar Série
+    Adicionar Jogos
 @endsection
 
 @section('cont')
