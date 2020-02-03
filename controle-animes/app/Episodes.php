@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Episodes extends Model
 {
-    public function sesssions()
+    public function sesssion()
     {
         return $this->belongsTo(Session::class);
     }

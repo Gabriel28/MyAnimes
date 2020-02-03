@@ -13,6 +13,4 @@ class Anime extends Model
     {
         return $this->hasMany(Session::class);
     }
-
-    
 }
