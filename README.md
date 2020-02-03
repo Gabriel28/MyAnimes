@@ -1,6 +1,6 @@
-# MyGamesPS4
+# MyAnimes
 
-Cursos de Laravel Parte I e II onde utilizarei para criar um sistema que guarda todos os meus jogos de PlayStation.
+Cursos de Laravel Parte I e II onde utilizarei para criar um sistema que guarda todos os animes que estou assisindo ou que já assisti. 
 
 # Parte I - Finalizado em 31/01
 Entender o padrão MVC com Laravel
